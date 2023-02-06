@@ -1,8 +1,12 @@
 * {
     box-sizing: border-box;
+    background-color: rgb(48, 172, 130);
+}
+header {
+    text-align:  center;
 }
 
-body {
+#container {
     margin: 0;
     display: grid;
     grid-template-columns: repeat(2, 5rem);
@@ -11,7 +15,7 @@ body {
     cursor: pointer;
     justify-content: center;
     padding-top: 2rem;
-    background-color: rgb(48, 172, 130);
+    
 }
 
 .deck {
